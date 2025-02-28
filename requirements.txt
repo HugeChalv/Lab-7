@@ -1,4 +1,6 @@
 streamlit
 pandas
 numpy
+xlrd
+openpyxl
 scikit-learn
