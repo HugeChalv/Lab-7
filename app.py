@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 # Load the dataset from the CSV file. Ensure that "AmesHousing.csv" is in the same directory.
 @st.cache
 def load_data():
-    df = pd.read_csv("AmesHousing.csv")
+    df = pd.read_csv("AmesHousing.xlsx")
     return df
 
 # Train a regression model using selected features.
